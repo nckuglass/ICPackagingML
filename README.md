@@ -1,6 +1,6 @@
-This repository provides trained Scikit-Learn machine learning models used in the associated paper.
+This repository provides trained Scikit-Learn machine learning models used in the associated paper (Composition Optimization of Oxide Glasses for Advanced IC Packaging via Machine Learning).
 
-Each pickle file contains an artificial neural network (ANN) model trained using chemical composition descriptors to predict a specific glass property.
+Each pickle file contains an artificial neural network (ANN) model trained using chemical composition descriptors to predict a key glass property for IC packaging.
 
 model_Coefficient_of_Thermal_Expansion.pkl
 ANN model for predicting the coefficient of thermal expansion (CTE).
@@ -32,7 +32,9 @@ ANN model for predicting dielectric constant.
 model_Dielectric_Loss.pkl
 ANN model for predicting dielectric loss.
 
-SiO₂, B₂O₃, Al₂O₃, MgO, CaO, BaO, Li₂O, Na₂O, K₂O, ZnO, SrO, TiO₂, GeO₂, P₂O₅, Temperature, log frequency
+Input order (mol% for each chemical component):
+SiO₂, B₂O₃, Al₂O₃, MgO, CaO, BaO, Li₂O, Na₂O, K₂O, ZnO, SrO, TiO₂, GeO₂, P₂O₅, Temperature (oC), log frequency (Hz)
 
 
 If you have any questions, please contact Shuwei Chang at Davidliefco@gmail.com
+
